@@ -1,6 +1,6 @@
 {
   "name": "lw-kit",
-  "version": "1.0.0-alpha.24032902",
+  "version": "1.0.0-alpha.24032903",
   "description": "",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -16,6 +16,7 @@
   },
   "keywords": [
     "lw-utils",
+    "lw-kit",
     "frontend",
     "utils"
   ],
@@ -23,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wyx-scottwu/lw-utils.git"
+    "url": "git+https://github.com/wyx-scottwu/lw-kit.git"
   },
   "homepage": "https://lw-kit.scottwu.cn",
   "devDependencies": {
