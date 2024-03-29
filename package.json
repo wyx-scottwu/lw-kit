@@ -1,6 +1,6 @@
 {
   "name": "lw-kit",
-  "version": "1.0.0",
+  "version": "1.0.0.24032901_alpha",
   "description": "",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -21,6 +21,11 @@
   ],
   "author": "wyx.scottwu",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyx-scottwu/lw-utils.git"
+  },
+  "homepage": "//lw-kit.scottwu.cn",
   "devDependencies": {
     "@babel/core": "^7.24.3",
     "@babel/preset-env": "^7.24.3",
