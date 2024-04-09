@@ -1,6 +1,6 @@
 {
   "name": "lw-kit",
-  "version": "1.1.0-alpha.24040901",
+  "version": "1.1.0-alpha.24040902",
   "description": "",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
