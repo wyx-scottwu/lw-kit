@@ -1,16 +1,8 @@
 import { isNil, isFunction, isUndefined } from 'lodash';
+import { isEdge, isIE } from '../utils';
+import { TImportCss } from '../type';
 
 const STYLE_TAG_REGEX = /<style\s*[\s\S]*<\/style>/i;
-
-export function isIE() {
-  if ('documentMode' in document) return true;
-  return navigator.userAgent.indexOf('MSIE') !== -1;
-}
-
-export function isEdge() {
-  if ('documentMode' in window) return true;
-  return !isIE()
-}
 
 /**
  * Description
@@ -75,7 +67,6 @@ export function performPrint(iframeElement: HTMLIFrameElement, opt: { importCss?
  * @param {Element} [options.printContent] - 
  * @return void
  */
-type TImportCss = () => string;
 export function printByIframe(options: { importCss?: TImportCss; cssAllInherit?: boolean; iframeId: string; printContent: Element; }) {
   const { importCss, cssAllInherit = true, iframeId, printContent } = options;
   if (isNil(iframeId)) {
