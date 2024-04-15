@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Page](README.md)
+* [iframe printer](README.md)
+* [electron loading](electron-loading.md)
